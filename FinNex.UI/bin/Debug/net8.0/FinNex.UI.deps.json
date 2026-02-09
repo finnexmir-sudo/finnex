@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "FinNex.UI/1.0.0": {
         "dependencies": {
-          "DataAccess": "1.0.0",
+          "FinNex.DataAccess": "1.0.0",
           "FinNex.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "8.0.22"
         },
@@ -953,7 +953,7 @@
           }
         }
       },
-      "DataAccess/1.0.0": {
+      "FinNex.DataAccess/1.0.0": {
         "dependencies": {
           "FinNex.Domain": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.23",
@@ -961,7 +961,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.23"
         },
         "runtime": {
-          "DataAccess.dll": {}
+          "FinNex.DataAccess.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "FinNex.Domain/1.0.0": {
@@ -971,7 +974,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.23"
         },
         "runtime": {
-          "FinNex.Domain.dll": {}
+          "FinNex.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -1542,7 +1548,7 @@
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
-    "DataAccess/1.0.0": {
+    "FinNex.DataAccess/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

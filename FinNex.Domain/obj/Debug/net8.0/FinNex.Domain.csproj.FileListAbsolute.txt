@@ -7,6 +7,7 @@ D:\FinNex\FinNex.Domain\obj\Debug\net8.0\FinNex.Domain.GeneratedMSBuildEditorCon
 D:\FinNex\FinNex.Domain\obj\Debug\net8.0\FinNex.Domain.AssemblyInfoInputs.cache
 D:\FinNex\FinNex.Domain\obj\Debug\net8.0\FinNex.Domain.AssemblyInfo.cs
 D:\FinNex\FinNex.Domain\obj\Debug\net8.0\FinNex.Domain.csproj.CoreCompileInputs.cache
+D:\FinNex\FinNex.Domain\obj\Debug\net8.0\FinNex.Domain.sourcelink.json
 D:\FinNex\FinNex.Domain\obj\Debug\net8.0\FinNex.Domain.dll
 D:\FinNex\FinNex.Domain\obj\Debug\net8.0\refint\FinNex.Domain.dll
 D:\FinNex\FinNex.Domain\obj\Debug\net8.0\FinNex.Domain.pdb

@@ -2,27 +2,42 @@
 <html lang="az">
 <head>
     <meta charset="utf-8" />
-    <title>FinNex - Maliyyə Sistemi</title>
+    <title>BMI Finance - Maliyyə Sistemi</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" />
-    <link rel="stylesheet" href="~/css/navbar.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Icons -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- Global styles -->
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/navbar.css" asp-append-version="true" />
+
 
     @RenderSection("Styles", required: false)
-
-
 </head>
+
 <body>
+
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark fin-navbar fixed-top shadow-sm">
+        <nav class="navbar navbar-expand-lg navbar-dark fin-navbar fixed-top">
             <div class="container-fluid px-4">
 
                 <!-- Logo -->
                 <a class="navbar-brand d-flex align-items-center gap-2 fw-bold"
                    asp-controller="Home" asp-action="Index">
-                    <i class="bi bi-bank2 fs-4"></i>
-                    <span>FinNex</span>
+
+                    <div class="logo-box">
+                        <img src="~/images/Logobank.jpg" alt="BMI Finance">
+                    </div>
+
+                    <span class="brand-text">BMI Finance</span>
                 </a>
+
 
                 <!-- Mobile toggle -->
                 <button class="navbar-toggler"
@@ -35,35 +50,41 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-
                 <!-- Menu -->
                 <div class="collapse navbar-collapse" id="mainNavbar">
-                    <ul class="navbar-nav ms-auto gap-2 align-items-lg-center">
+                    <ul class="navbar-nav ms-auto align-items-lg-center gap-1">
 
                         <li class="nav-item">
                             <a class="nav-link" asp-controller="Bank" asp-action="Index">
-                                <i class="bi bi-building"></i> Banklar
+                                <i class="bi bi-building"></i>
+                                Banklar
                             </a>
                         </li>
 
                         <li class="nav-item">
                             <a class="nav-link" asp-controller="Musteri" asp-action="Index">
-                                <i class="bi bi-people"></i> Müştərilər
+                                <i class="bi bi-people"></i>
+                                Müştərilər
                             </a>
                         </li>
 
+                        <!-- SWIFT DROPDOWN -->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle"
                                href="#"
                                role="button"
-                               data-bs-toggle="dropdown">
-                                <i class="bi bi-arrow-left-right"></i> Swift
+                               data-bs-toggle="dropdown"
+                               aria-expanded="false">
+                                <i class="bi bi-arrow-left-right"></i>
+                                Swift
                             </a>
 
-                            <ul class="dropdown-menu dropdown-menu-end fin-dropdown shadow">
+                            <ul class="dropdown-menu dropdown-menu-end fin-dropdown">
 
-                                <li class="fin-dropdown-title">
-                                    Əməliyyatlar
+                                <li>
+                                    <span class="fin-dropdown-title">
+                                        Əməliyyatlar
+                                    </span>
                                 </li>
 
                                 <li>
@@ -83,8 +104,8 @@
                                         Ödəniş tapşırıqları
                                     </a>
                                 </li>
-                            </ul>
 
+                            </ul>
                         </li>
 
                     </ul>
@@ -93,20 +114,18 @@
         </nav>
     </header>
 
+    <!-- MAIN -->
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Scripts -->
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
     @RenderSection("Scripts", required: false)
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-
 
 </body>
 </html>

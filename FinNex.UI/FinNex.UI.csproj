@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DataAccess\DataAccess.csproj" />
+    <ProjectReference Include="..\DataAccess\FinNex.DataAccess.csproj" />
     <ProjectReference Include="..\FinNex.Domain\FinNex.Domain.csproj" />
   </ItemGroup>
 

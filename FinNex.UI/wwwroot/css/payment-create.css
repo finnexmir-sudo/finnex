@@ -102,4 +102,82 @@
     font-size: 14px;
     white-space: nowrap;
 }
+/* Create page background */
+.payment-wrapper {
+    background: #F1F5F9; /* dashboard-dan ayırır */
+    min-height: 100vh;
+    padding-top: 90px;
+}
+.payment-page .payment-header h4 {
+    font-weight: 700;
+    margin-bottom: 4px;
+}
 
+.payment-page .payment-header span {
+    color: #64748B;
+    font-size: 14px;
+}
+.payment-page .form-group-box {
+    background: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 14px;
+    padding: 20px;
+}
+.payment-page .form-control,
+.payment-page .form-select {
+    height: 38px;
+    font-size: 14px;
+    border-radius: 8px;
+}
+.payment-page .btn-bank {
+    height: 38px;
+    padding: 0 14px;
+    font-size: 14px;
+    border-radius: 8px;
+}
+@media (max-width: 768px) {
+    .payment-wrapper {
+        padding-top: 70px;
+    }
+
+    .payment-page {
+        padding: 16px 12px 40px;
+    }
+}
+/* Bütün input, select və düymələri 38px-ə sabitləyirik */
+/* SİL */
+.payment-page .d-flex {
+    align-items: flex-start !important;
+}
+
+
+/* Yan-yana olan elementlərin (VÖEN + Button) hizalanması */
+.payment-page .d-flex {
+    display: flex !important;
+    align-items: flex-start !important; /* Yuxarıdan bərabər başlasınlar */
+    gap: 8px;
+}
+
+/* Ödəyən bank tərəfdəki o lazımsız boşluğu və sürüşməni ləğv etmək üçün */
+.payment-page .btn-placeholder {
+    display: none !important;
+}
+
+/* İnputların altındakı artıq boşluqları təmizləyək */
+.payment-page .form-group-box .form-control {
+    margin-bottom: 12px;
+}
+/* VÖEN + Bank button perfect alignment */
+.payment-page .btn-bank {
+    height: 38px;
+    padding: 0 14px;
+    display: flex;
+    align-items: center; /* yazı vertikal mərkəz */
+    justify-content: center; /* yazı horizontal mərkəz */
+    line-height: 1;
+}
+
+/* input + button eyni səviyyədə */
+.payment-page .d-flex.align-items-center {
+    align-items: center !important;
+}

@@ -1562,7 +1562,7 @@
           }
         }
       },
-      "DataAccess/1.0.0": {
+      "FinNex.DataAccess/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -1572,10 +1572,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.23"
         },
         "compile": {
-          "bin/placeholder/DataAccess.dll": {}
+          "bin/placeholder/FinNex.DataAccess.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DataAccess.dll": {}
+          "bin/placeholder/FinNex.DataAccess.dll": {}
         }
       },
       "FinNex.Domain/1.0.0": {
@@ -4160,10 +4160,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "DataAccess/1.0.0": {
+    "FinNex.DataAccess/1.0.0": {
       "type": "project",
-      "path": "../DataAccess/DataAccess.csproj",
-      "msbuildProject": "../DataAccess/DataAccess.csproj"
+      "path": "../DataAccess/FinNex.DataAccess.csproj",
+      "msbuildProject": "../DataAccess/FinNex.DataAccess.csproj"
     },
     "FinNex.Domain/1.0.0": {
       "type": "project",
@@ -4173,13 +4173,13 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "DataAccess >= 1.0.0",
+      "FinNex.DataAccess >= 1.0.0",
       "FinNex.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.22"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Samir\\.nuget\\packages\\": {},
+    "C:\\Users\\mehemmed\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
@@ -4188,14 +4188,14 @@
       "projectUniqueName": "D:\\FinNex\\FinNex.UI\\FinNex.UI.csproj",
       "projectName": "FinNex.UI",
       "projectPath": "D:\\FinNex\\FinNex.UI\\FinNex.UI.csproj",
-      "packagesPath": "C:\\Users\\Samir\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\mehemmed\\.nuget\\packages\\",
       "outputPath": "D:\\FinNex\\FinNex.UI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Samir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mehemmed\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4204,14 +4204,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\FinNex\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "D:\\FinNex\\DataAccess\\DataAccess.csproj"
+            "D:\\FinNex\\DataAccess\\FinNex.DataAccess.csproj": {
+              "projectPath": "D:\\FinNex\\DataAccess\\FinNex.DataAccess.csproj"
             },
             "D:\\FinNex\\FinNex.Domain\\FinNex.Domain.csproj": {
               "projectPath": "D:\\FinNex\\FinNex.Domain\\FinNex.Domain.csproj"
@@ -4228,7 +4229,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -4260,7 +4262,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

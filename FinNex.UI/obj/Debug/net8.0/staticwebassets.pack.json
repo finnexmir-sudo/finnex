@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "D:\\FinNex\\FinNex.UI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FinNex.UI.bundle.scp.css",
-      "PackagePath": "staticwebassets\\FinNex.UI.bundle.scp.css"
+      "PackagePath": "staticwebassets\\FinNex.UI.hu9x948bql.bundle.scp.css"
     },
     {
       "Id": "D:\\FinNex\\FinNex.UI\\wwwroot\\css\\navbar.css",
@@ -19,6 +19,10 @@
     {
       "Id": "D:\\FinNex\\FinNex.UI\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\FinNex\\FinNex.UI\\wwwroot\\images\\Logobank.jpg",
+      "PackagePath": "staticwebassets\\images\\Logobank.jpg"
     },
     {
       "Id": "D:\\FinNex\\FinNex.UI\\wwwroot\\js\\payment-bank.js",
@@ -255,6 +259,10 @@
     {
       "Id": "D:\\FinNex\\FinNex.UI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FinNex.UI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FinNex.UI.Microsoft.AspNetCore.StaticWebAssets.props",
