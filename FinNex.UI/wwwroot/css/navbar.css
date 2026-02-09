@@ -1,0 +1,13 @@
+﻿.fin-navbar {
+    background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+    height: 64px;
+}
+
+    .fin-navbar .nav-link {
+        color: #e0e0e0;
+        font-weight: 500;
+    }
+
+        .fin-navbar .nav-link:hover {
+            background: rgba(255,255,255,.12);
+        }

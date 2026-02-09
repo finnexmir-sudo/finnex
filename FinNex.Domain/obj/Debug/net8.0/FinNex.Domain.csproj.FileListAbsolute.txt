@@ -1,0 +1,14 @@
+D:\FinNex\FinNex.Domain\bin\Debug\net8.0\FinNex.Domain.deps.json
+D:\FinNex\FinNex.Domain\bin\Debug\net8.0\FinNex.Domain.runtimeconfig.json
+D:\FinNex\FinNex.Domain\bin\Debug\net8.0\FinNex.Domain.dll
+D:\FinNex\FinNex.Domain\bin\Debug\net8.0\FinNex.Domain.pdb
+D:\FinNex\FinNex.Domain\obj\Debug\net8.0\FinNex.Domain.csproj.AssemblyReference.cache
+D:\FinNex\FinNex.Domain\obj\Debug\net8.0\FinNex.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\FinNex\FinNex.Domain\obj\Debug\net8.0\FinNex.Domain.AssemblyInfoInputs.cache
+D:\FinNex\FinNex.Domain\obj\Debug\net8.0\FinNex.Domain.AssemblyInfo.cs
+D:\FinNex\FinNex.Domain\obj\Debug\net8.0\FinNex.Domain.csproj.CoreCompileInputs.cache
+D:\FinNex\FinNex.Domain\obj\Debug\net8.0\FinNex.Domain.dll
+D:\FinNex\FinNex.Domain\obj\Debug\net8.0\refint\FinNex.Domain.dll
+D:\FinNex\FinNex.Domain\obj\Debug\net8.0\FinNex.Domain.pdb
+D:\FinNex\FinNex.Domain\obj\Debug\net8.0\FinNex.Domain.genruntimeconfig.cache
+D:\FinNex\FinNex.Domain\obj\Debug\net8.0\ref\FinNex.Domain.dll

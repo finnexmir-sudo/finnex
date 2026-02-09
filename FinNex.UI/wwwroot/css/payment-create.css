@@ -1,0 +1,105 @@
+﻿/* ===============================
+   PAYMENT CREATE PAGE ONLY
+================================ */
+
+.payment-page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 24px 16px 60px;
+}
+
+    /* HEADER */
+    .payment-page .payment-header {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    /* SECTION */
+    .payment-page .payment-section {
+        background: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 10px 30px rgba(15,118,110,.08);
+        margin-bottom: 28px;
+        overflow: hidden;
+    }
+
+    /* SECTION HEADER */
+    .payment-page .section-header {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 14px 20px;
+        background: linear-gradient(90deg, #0F766E, #0D9488);
+        color: #fff;
+        font-weight: 600;
+    }
+
+    /* BODY */
+    .payment-page .section-body {
+        padding: 22px;
+    }
+
+    /* GRID */
+    .payment-page .two-column {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+    }
+
+    /* FORM GROUP */
+    .payment-page .form-group-box {
+        background: #F8FAFC;
+        border: 1px solid #E2E8F0;
+        border-radius: 10px;
+        padding: 18px;
+    }
+
+        /* INPUT SPACING */
+        .payment-page .form-group-box .form-control {
+            margin-bottom: 12px;
+        }
+
+            .payment-page .form-group-box .form-control:last-child {
+                margin-bottom: 0;
+            }
+
+    /* GRID-2 */
+    .payment-page .grid-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+    }
+
+    /* AMOUNT */
+    .payment-page .amount-row {
+        display: grid;
+        grid-template-columns: 160px 200px 1fr;
+        gap: 16px;
+    }
+
+    /* ACTIONS */
+    .payment-page .form-actions {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        margin-top: 40px;
+    }
+
+/* MOBILE */
+@media (max-width: 768px) {
+    .payment-page .two-column,
+    .payment-page .amount-row {
+        grid-template-columns: 1fr;
+    }
+}
+.payment-page .form-control,
+.payment-page .form-select {
+    height: 38px;
+}
+.payment-page .btn-bank {
+    height: 38px;
+    padding: 0 14px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+

@@ -1,0 +1,17 @@
+D:\FinNex\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+D:\FinNex\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+D:\FinNex\DataAccess\bin\Debug\net8.0\DataAccess.dll
+D:\FinNex\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+D:\FinNex\DataAccess\bin\Debug\net8.0\FinNex.Domain.dll
+D:\FinNex\DataAccess\bin\Debug\net8.0\FinNex.Domain.pdb
+D:\FinNex\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+D:\FinNex\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\FinNex\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+D:\FinNex\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+D:\FinNex\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\FinNex\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+D:\FinNex\DataAccess\obj\Debug\net8.0\DataAccess.dll
+D:\FinNex\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+D:\FinNex\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+D:\FinNex\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+D:\FinNex\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
